@@ -1,0 +1,38 @@
+.fightarea{
+    display: flex;
+    gap: 20px
+}
+
+#char1, #char2 {
+    flex: 1;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #333;
+    border-radius:  5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log{
+    border: 1px dotted #999;
+    height:  200px;
+    overflow-y:  scroll;
+}
+
+.img {
+    width: 100px;
+    margin-left: 20%
+}
+
+.ataque {
+    width: 100px;
+    position: absolute;
+    transform: rotate(270deg);
+    transition: all 3s ease; /* Animação suave */
+}
