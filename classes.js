@@ -96,7 +96,7 @@ class Stage {
         if(actualAttack > actualDefense) {
             attacked.life -= actualAttack; // - actualDefense
 
-            let imgEl = this.char1El.querySelector(".ataque")
+            let imgEl = this.attacking.querySelector(".ataque")
             let position = imgEl.getBoundingClientRect().x;
             const destination = 600; // Posição final da imagem
             const interval = 10; // Tempo entre cada movimento (em milissegundos)
